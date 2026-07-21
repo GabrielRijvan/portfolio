@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rijvan Gabriel — Designer graphique &amp; créateur de sites web</title>
+<meta name="description" content="Je transforme des idées en marques mémorables et en expériences web modernes. Branding, design graphique et sites web par Rijvan Gabriel.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= CURSEUR / PROGRESSION SCROLL ================= -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- ================= NAVIGATION ================= -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#hero" class="nav__mark" aria-label="Rijvan Gabriel — accueil">
+      <svg viewBox="0 0 64 64" class="mark-svg" aria-hidden="true">
+        <path class="mark-path mark-path--r" d="M14 50 V14 H30 C38 14 42 18 42 25 C42 32 38 35 30 35 H14 M28 35 L42 50" />
+        <path class="mark-path mark-path--g" d="M58 20 C55 15 49 13 43 16 C36 20 34 30 38 38 C42 46 51 49 57 45 C60 43 61 40 61 37 H50" />
+      </svg>
+    </a>
+    <nav class="nav__links" aria-label="Navigation principale">
+      <a href="#duality" data-nav>Expertise</a>
+      <a href="#projects" data-nav>Réalisations</a>
+      <a href="#process" data-nav>Processus</a>
+      <a href="#about" data-nav>À propos</a>
+      <a href="#contact" data-nav>Contact</a>
+    </nav>
+    <a class="nav__cta" href="https://wa.me/261384528742" target="_blank" rel="noopener">
+      <span>Discuter du projet</span>
+    </a>
+    <button class="nav__burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- Menu mobile -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#duality" data-nav-mobile>Expertise</a>
+  <a href="#projects" data-nav-mobile>Réalisations</a>
+  <a href="#process" data-nav-mobile>Processus</a>
+  <a href="#about" data-nav-mobile>À propos</a>
+  <a href="#contact" data-nav-mobile>Contact</a>
+  <a class="mobile-menu__cta" href="https://wa.me/261384528742" target="_blank" rel="noopener">Discuter sur WhatsApp</a>
+</div>
+
+<main>
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="hero">
+    <div class="hero__grid">
+      <div class="hero__copy" data-reveal>
+        <p class="eyebrow">Designer graphique &amp; créateur de sites web</p>
+        <h1 class="hero__title">
+          Je transforme des <em>idées</em> en marques mémorables et en <em>expériences web</em> modernes.
+        </h1>
+        <p class="hero__lead">
+          Une seule main du premier trait de crayon jusqu'à la mise en ligne — pour que votre identité visuelle et votre présence digitale racontent exactement la même histoire.
+        </p>
+        <div class="hero__ctas">
+          <a class="btn btn--primary" href="https://wa.me/261384528742" target="_blank" rel="noopener">
+            Me contacter sur WhatsApp
+          </a>
+          <a class="btn btn--ghost" href="#projects">
+            Voir mes réalisations
+          </a>
+        </div>
+        <div class="hero__signature">
+          <span class="signature-line"></span>
+          <span>Rijvan Gabriel — de l'idée à l'écran</span>
+        </div>
+      </div>
+
+      <div class="hero__visual" data-reveal>
+        <div class="hero__frame">
+          <img src="assets/images/hero-portrait.png" alt="Portrait de Rijvan Gabriel, designer graphique et créateur de sites web" class="hero__portrait">
+          <svg class="hero__orbit" viewBox="0 0 400 400" aria-hidden="true">
+            <circle cx="200" cy="200" r="188" class="orbit-ring" />
+            <circle cx="200" cy="12" r="5" class="orbit-dot" />
+          </svg>
+          <div class="hero__tag hero__tag--brand">
+            <span class="tag-dot"></span> Identité visuelle
+          </div>
+          <div class="hero__tag hero__tag--web">
+            <span class="tag-dot"></span> Expérience web
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__scrolldown" aria-hidden="true">
+      <span></span>
+      <p>Faites défiler</p>
+    </div>
+  </section>
+
+  <!-- ================= ENTRE DESIGN ET DÉVELOPPEMENT ================= -->
+  <section class="duality" id="duality">
+    <div class="section-head" data-reveal>
+      <p class="eyebrow eyebrow--dark">Une seule compétence, deux langages</p>
+      <h2 class="section-title">Entre design et développement</h2>
+      <p class="section-lead">
+        Je ne passe pas d'un métier à l'autre : je poursuis la même idée jusqu'à ce qu'elle devienne un objet réel, visible et fonctionnel — d'abord sur le papier, ensuite dans le navigateur.
+      </p>
+    </div>
+
+    <div class="duality__flow" data-reveal>
+      <div class="flow-step">
+        <div class="flow-step__icon">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 40 L18 14 L26 32 L32 20 L40 40" /><circle cx="14" cy="10" r="3"/></svg>
+        </div>
+        <h3>Une idée</h3>
+        <p>Un besoin, une intuition, un positionnement à clarifier.</p>
+      </div>
+      <span class="flow-arrow" aria-hidden="true">
+        <svg viewBox="0 0 40 16"><path d="M0 8 H34 M26 1 L34 8 L26 15"/></svg>
+      </span>
+      <div class="flow-step">
+        <div class="flow-step__icon">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><rect x="8" y="8" width="32" height="32" rx="2"/><circle cx="24" cy="24" r="8"/></svg>
+        </div>
+        <h3>Une identité visuelle</h3>
+        <p>Un logo, une palette, une typographie qui parlent d'une seule voix.</p>
+      </div>
+      <span class="flow-arrow" aria-hidden="true">
+        <svg viewBox="0 0 40 16"><path d="M0 8 H34 M26 1 L34 8 L26 15"/></svg>
+      </span>
+      <div class="flow-step">
+        <div class="flow-step__icon">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M6 14 H42 M6 14 V38 H42 V14"/><path d="M6 20 H42"/></svg>
+        </div>
+        <h3>Une présence digitale</h3>
+        <p>Des contenus et des interfaces cohérents avec la marque.</p>
+      </div>
+      <span class="flow-arrow" aria-hidden="true">
+        <svg viewBox="0 0 40 16"><path d="M0 8 H34 M26 1 L34 8 L26 15"/></svg>
+      </span>
+      <div class="flow-step flow-step--final">
+        <div class="flow-step__icon">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 4 L44 24 L24 44 L4 24 Z"/><path d="M24 14 L34 24 L24 34 L14 24 Z"/></svg>
+        </div>
+        <h3>Un site professionnel</h3>
+        <p>Rapide, soigné, pensé pour convertir vos visiteurs.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CE QUE JE CONSTRUIS ================= -->
+  <section class="build" id="build">
+    <div class="section-head" data-reveal>
+      <p class="eyebrow eyebrow--dark">Le champ d'action</p>
+      <h2 class="section-title">Ce que je construis</h2>
+    </div>
+
+    <div class="build__grid" data-reveal>
+      <article class="build-card build-card--branding">
+        <div class="build-card__index">01</div>
+        <h3>Branding</h3>
+        <p>Logo, système de couleurs, typographies, guidelines — la base sur laquelle tout le reste s'appuie.</p>
+        <ul class="build-card__list">
+          <li>Logo &amp; déclinaisons</li>
+          <li>Charte graphique</li>
+          <li>Guide de marque</li>
+        </ul>
+      </article>
+
+      <article class="build-card build-card--design">
+        <div class="build-card__index">02</div>
+        <h3>Design graphique</h3>
+        <p>Supports print et digitaux qui font vivre la marque au quotidien, sur tous les canaux.</p>
+        <ul class="build-card__list">
+          <li>Réseaux sociaux</li>
+          <li>Supports imprimés</li>
+          <li>Présentations &amp; documents</li>
+        </ul>
+      </article>
+
+      <article class="build-card build-card--web">
+        <div class="build-card__index">03</div>
+        <h3>Sites web</h3>
+        <p>Des interfaces rapides et élégantes, construites pour représenter fidèlement la marque en ligne.</p>
+        <ul class="build-card__list">
+          <li>Sites vitrines</li>
+          <li>Landing pages</li>
+          <li>Expériences sur-mesure</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- ================= PROJETS SÉLECTIONNÉS ================= -->
+  <section class="projects" id="projects">
+    <div class="section-head" data-reveal>
+      <p class="eyebrow eyebrow--dark">Sélection</p>
+      <h2 class="section-title">Projets sélectionnés</h2>
+      <p class="section-lead">Quelques marques accompagnées de l'identité visuelle jusqu'à la mise en ligne.</p>
+    </div>
+
+    <div class="projects__list">
+   <article class="project-card" data-reveal>
+        <div class="project-card__media">
+          <img src="assets/images/project-branding.png" alt="Identité visuelle du projet Pizzaria" loading="lazy">
+        </div>
+        <div class="project-card__body">
+          <p class="project-card__sector">Restauration rapide</p>
+          <h3>Pizzaria - Ambohipo</h3>
+          <p class="project-card__objective"><span>Objectif</span> Créer une identité visuelle gourmande et percutante pour une pizzaria locale.</p>
+          <p class="project-card__result"><span>Résultat</span> Campagne publicitaire visuelle réussie et hausse des commandes par téléphone et à domicile.</p>
+        </div>
+      </article>
+
+
+      <article class="project-card project-card--reverse" data-reveal>
+        <div class="project-card__media">
+          <img src="assets/images/project-website.jpg" alt="Site web du projet Lumia Architecture" loading="lazy">
+        </div>
+        <div class="project-card__body">
+          <p class="project-card__sector">Community management</p>
+          <h3>Studio Racine</h3>
+          <p class="project-card__objective"><span>Objectif</span> Concevoir un site vitrine reflétant la précision et l'épure du studio.</p>
+          <p class="project-card__result"><span>Résultat</span> Portfolio en ligne générant deux fois plus de demandes de devis qualifiées.</p>
+        </div>
+      </article>
+
+      
+<article class="project-card" data-reveal>
+        <div class="project-card__media">
+          <img src="assets/images/project-branding2.png" alt="Identité visuelle du projet He Jo" loading="lazy">
+        </div>
+        <div class="project-card__body">
+          <p class="project-card__sector">Gastronomie &amp; Éducation enfantine</p>
+          <h3>He Jo</h3>
+          <p class="project-card__objective"><span>Objectif</span> Créer une identité visuelle fraîche et ludique pour des cours de cuisine pour enfants.</p>
+          <p class="project-card__result"><span>Résultat</span> Conception d'un branding complet et de visuels de réseaux sociaux favorisant l'apprentissage par le jeu.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ================= MON PROCESSUS ================= -->
+  <section class="process" id="process">
+    <div class="section-head section-head--light" data-reveal>
+      <p class="eyebrow eyebrow--light">La méthode</p>
+      <h2 class="section-title section-title--light">Mon processus</h2>
+      <p class="section-lead section-lead--light">Un déroulé clair, du premier échange jusqu'à la livraison finale.</p>
+    </div>
+
+    <div class="process__timeline" data-reveal>
+      <div class="process__line"></div>
+
+      <div class="process-step">
+        <span class="process-step__num">01</span>
+        <h3>Découverte</h3>
+        <p>Écoute de vos objectifs, de votre marché et de vos contraintes.</p>
+      </div>
+      <div class="process-step">
+        <span class="process-step__num">02</span>
+        <h3>Stratégie</h3>
+        <p>Positionnement, ton de marque et priorités du projet.</p>
+      </div>
+      <div class="process-step">
+        <span class="process-step__num">03</span>
+        <h3>Design</h3>
+        <p>Identité visuelle et maquettes, présentées et affinées avec vous.</p>
+        <!-- <img src="assets/images/process-design.jpg" alt="Étape de design du processus créatif" loading="lazy"> -->
+      </div>
+      <div class="process-step">
+        <span class="process-step__num">04</span>
+        <h3>Développement</h3>
+        <p>Intégration soignée, rapide et responsive de chaque écran.</p>
+        <!-- <img src="assets/images/process-development.jpg" alt="Étape de développement du processus créatif" loading="lazy"> -->
+      </div>
+      <div class="process-step">
+        <span class="process-step__num">05</span>
+        <h3>Livraison</h3>
+        <p>Mise en ligne, vérifications finales et transfert des fichiers.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= QUELQUES CHIFFRES ================= -->
+  <section class="stats" id="stats">
+    <div class="stats__grid" data-reveal>
+      <div class="stat">
+        <p class="stat__number" data-count="42">0</p>
+        <p class="stat__label">Projets livrés</p>
+      </div>
+      <div class="stat">
+        <p class="stat__number" data-count="3">0</p>
+        <p class="stat__label">Années d'expérience</p>
+      </div>
+      <div class="stat">
+        <p class="stat__number" data-count="99" data-suffix="%">0</p>
+        <p class="stat__label">Clients satisfaits</p>
+      </div>
+      <div class="stat">
+        <p class="stat__number" data-count="5" data-suffix="j">0</p>
+        <p class="stat__label">Délai moyen de livraison</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= À PROPOS ================= -->
+  <section class="about" id="about">
+    <div class="about__grid">
+      <div class="about__media" data-reveal>
+        <img src="assets/images/about-photo.jpg" alt="Rijvan Gabriel au travail" loading="lazy">
+      </div>
+      <div class="about__copy" data-reveal>
+        <p class="eyebrow eyebrow--dark">À propos</p>
+        <h2 class="section-title">Une passion, deux savoir-faire</h2>
+        <p>
+          Je m'appelle Rijvan Gabriel. Depuis plusieurs années, j'aide des entrepreneurs et des petites entreprises à donner une forme claire et crédible à leurs idées — d'abord à travers une identité visuelle forte, puis à travers un site web qui la prolonge fidèlement.
+        </p>
+        <p>
+          Ce qui me distingue n'est pas de cumuler deux métiers, mais de refuser la coupure entre eux. Un logo qui ne se retrouve pas dans le site, ou un site qui ne ressemble pas à sa marque, racontent deux histoires différentes. Mon travail consiste à n'en raconter qu'une seule, du premier croquis jusqu'à la mise en ligne.
+        </p>
+        <p>
+          Curieux, exigeant et attentif aux détails, j'aime autant affiner une courbe typographique que régler une animation au pixel près.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="contact" id="contact">
+    <div class="contact__inner" data-reveal>
+      <p class="eyebrow eyebrow--light">Prochaine étape</p>
+      <h2 class="contact__title">Parlons de votre projet.</h2>
+      <p class="contact__lead">Pas de formulaire, pas d'attente — choisissez simplement le canal qui vous convient.</p>
+
+      <div class="contact__buttons">
+        <a class="contact-btn contact-btn--primary" href="https://wa.me/261384528742" target="_blank" rel="noopener">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 4 C9.4 4 4 9.4 4 16 c0 2.4 0.7 4.6 1.9 6.5 L4 28 l5.7-1.8 c1.8 1 3.9 1.6 6.3 1.6 6.6 0 12-5.4 12-12 S22.6 4 16 4 Z M22.4 20.1 c-0.3 0.8-1.5 1.5-2.5 1.7 -0.7 0.1-1.6 0.2-4.6-1 -3.8-1.6-6.2-5.5-6.4-5.7 -0.2-0.3-1.5-2-1.5-3.8 0-1.8 0.9-2.7 1.3-3 0.3-0.4 0.7-0.5 1-0.5 h0.7 c0.2 0 0.5 0 0.8 0.6 0.3 0.7 1.1 2.5 1.2 2.7 0.1 0.2 0.2 0.4 0 0.7 -0.1 0.3-0.2 0.4-0.4 0.7 -0.2 0.2-0.4 0.5-0.6 0.7 -0.2 0.2-0.4 0.4-0.2 0.8 0.2 0.4 0.9 1.6 2 2.6 1.4 1.2 2.5 1.6 2.9 1.8 0.4 0.2 0.6 0.1 0.8-0.1 0.2-0.2 0.9-1.1 1.2-1.4 0.3-0.4 0.5-0.3 0.8-0.2 0.3 0.1 2.1 1 2.5 1.2 0.4 0.2 0.6 0.3 0.7 0.5 0.1 0.2 0.1 1-0.2 1.9 Z"/></svg>
+          <span>
+            <strong>WhatsApp</strong>
+            <small>Réponse rapide, discussion directe</small>
+          </span>
+        </a>
+
+        <a class="contact-btn" href="mailto:rijvangabriel@gmail.com">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="4" y="7" width="24" height="18" rx="2"/><path d="M5 8.5 L16 17 L27 8.5"/></svg>
+          <span>
+            <strong>Email</strong>
+            <small>rijvangabriel@gmail.com</small>
+          </span>
+        </a>
+
+        <a class="contact-btn" href="https://www.behance.net/rijvangabriel" target="_blank" rel="noopener">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 9 h9 a4 4 0 0 1 0 8 h-9 z M5 17 h10 a4.5 4.5 0 0 1 0 9 h-10 z"/><path d="M20 13 h8 M19.5 22 a4.5 4 0 0 0 8.5 -1.4 M19.5 20 a4.5 4 0 0 1 8.7 0 z"/></svg>
+          <span>
+            <strong>Voir mon Behance</strong>
+            <small>Portfolio complet des projets</small>
+          </span>
+        </a>
+
+        <a class="contact-btn" href="https://drive.google.com/drive/folders/11Z5hu7uMZCU4JtWoGupsEe2CdOPHPns6?usp=sharing" target="_blank" rel="noopener">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M11 4 L21 4 L29 18 L19 18 Z"/><path d="M9 21 L14 29 L24 29 L19 21 Z"/><path d="M3 18 L11 4 L16 12.5 L8 26 Z"/></svg>
+          <span>
+            <strong>Accéder à mes réalisations</strong>
+            <small>Dossier complet des livrables</small>
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__mark">
+      <svg viewBox="0 0 64 64" aria-hidden="true">
+        <path d="M14 50 V14 H30 C38 14 42 18 42 25 C42 32 38 35 30 35 H14 M28 35 L42 50" />
+      </svg>
+      <span>Rijvan Gabriel</span>
+    </div>
+    <p class="footer__tagline">Je transforme des idées en marques mémorables et en expériences web modernes.</p>
+    <div class="footer__links">
+      <a href="https://wa.me/261384528742" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="mailto:rijvangabriel@gmail.com">Email</a>
+      <a href="https://www.behance.net/rijvangabriel" target="_blank" rel="noopener">Behance</a>
+      <a href="https://drive.google.com/drive/folders/11Z5hu7uMZCU4JtWoGupsEe2CdOPHPns6?usp=sharing" target="_blank" rel="noopener">Drive</a>
+    </div>
+    <p class="footer__copy">© <span id="year"></span> Rijvan Gabriel. Tous droits réservés.</p>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="Retour en haut de page">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19 V6 M6 11 L12 5 L18 11"/></svg>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>

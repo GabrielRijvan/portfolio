@@ -1,0 +1,127 @@
+====================================================================
+DOCUMENTATION DES IMAGES — PORTFOLIO RIJVAN GABRIEL
+====================================================================
+Ce fichier liste toutes les images attendues par index.html.
+Chaque image doit être placée exactement à l'emplacement indiqué
+pour que le site s'affiche correctement.
+
+Format général recommandé : JPG, qualité 85-90%, compressé pour le
+web. Poids cible : entre 80 Ko et 300 Ko par image.
+
+--------------------------------------------------------------------
+1. hero-portrait.jpg
+--------------------------------------------------------------------
+Emplacement   : assets/images/hero-portrait.jpg
+Utilité       : Portrait principal de Rijvan Gabriel dans le Hero,
+                première image vue par le visiteur.
+Format recommandé : JPG, ratio carré à légèrement vertical
+                (environ 1000 x 1050 px), recadrage buste/portrait.
+
+Prompt IA détaillé :
+"Portrait professionnel en studio d'un jeune homme créatif d'origine
+malgache, la trentaine, look moderne et soigné (chemise ou pull
+col rond bleu marine ou blanc), posture confiante, léger sourire
+naturel, bras croisés ou main au menton. Éclairage doux et
+directionnel de studio, fond uni bleu très clair presque blanc en
+dégradé subtil, ambiance premium et minimaliste. Photographie
+réaliste haute définition, profondeur de champ légère, style
+éditorial pour portfolio de designer, cadrage buste, regard vers
+la caméra, aucune fioriture graphique surimprimée."
+
+--------------------------------------------------------------------
+2. project-branding.jpg
+--------------------------------------------------------------------
+Emplacement   : assets/images/project-branding.jpg
+Utilité       : Image illustrant les projets "Alto Café" et
+                "Nova Fitness" dans la section Projets sélectionnés
+                (identité visuelle / branding).
+Format recommandé : JPG, ratio 4:3 (environ 1200 x 900 px).
+
+Prompt IA détaillé :
+"Mise en scène à plat (flat lay) d'une identité de marque : carte
+de visite, papier à en-tête et petit packaging de café ou étiquette
+de produit, tous déclinés dans une palette bleu marine et blanc
+avec un logo minimaliste. Composition ordonnée sur une surface
+claire (bois clair ou marbre blanc), éclairage naturel doux,
+ombres légères, style photographie de branding premium, très
+propre et épuré, aucune marque ou logo réel visible, uniquement
+un design fictif générique."
+
+--------------------------------------------------------------------
+3. project-website.jpg
+--------------------------------------------------------------------
+Emplacement   : assets/images/project-website.jpg
+Utilité       : Image illustrant le projet "Lumia Architecture"
+                dans la section Projets sélectionnés (site web).
+Format recommandé : JPG, ratio 4:3 (environ 1200 x 900 px).
+
+Prompt IA détaillé :
+"Écran d'ordinateur portable moderne posé sur un bureau clair et
+minimaliste, affichant la maquette d'un site web épuré à dominante
+bleu et blanc avec une grande photo d'architecture et une
+typographie élégante. Angle de prise de vue légèrement en plongée,
+éclairage naturel de bureau, décor discret (plante, tasse, cahier),
+ambiance studio de design premium, aucune marque d'ordinateur
+identifiable, aucun texte réel lisible à l'écran, uniquement une
+composition de type wireframe/maquette générique."
+
+--------------------------------------------------------------------
+4. about-photo.jpg
+--------------------------------------------------------------------
+Emplacement   : assets/images/about-photo.jpg
+Utilité       : Photo humaine et professionnelle dans la section
+                "À propos", plus naturelle que le portrait du Hero.
+Format recommandé : JPG, ratio vertical 3:4 (environ 1000 x 1300 px).
+
+Prompt IA détaillé :
+"Photographie lifestyle d'un designer graphique d'origine malgache
+au travail dans un studio créatif lumineux, assis à son bureau
+face à un écran affichant des palettes de couleurs bleues et des
+maquettes graphiques, un carnet de croquis ouvert et un stylo à la
+main. Lumière naturelle venant d'une fenêtre latérale, ambiance
+chaleureuse et authentique malgré un décor minimaliste blanc et
+bois clair, quelques touches bleues dans le décor (mug, chaise),
+photographie candide et réaliste, non posée, style éditorial."
+
+--------------------------------------------------------------------
+5. process-design.jpg
+--------------------------------------------------------------------
+Emplacement   : assets/images/process-design.jpg
+Utilité       : Illustration de l'étape "Design" dans la section
+                Mon processus (fond sombre).
+Format recommandé : JPG, ratio 4:3 (environ 800 x 600 px).
+
+Prompt IA détaillé :
+"Gros plan sur une tablette graphique et un stylet en train de
+dessiner un logo minimaliste bleu sur fond blanc à l'écran, à côté
+de nuanciers de couleurs bleues et d'esquisses papier au crayon.
+Éclairage doux, cadrage serré sur les mains et l'écran, ambiance
+studio de création, tons dominants bleu, blanc et gris clair,
+photographie nette et professionnelle, aucune marque de matériel
+visible."
+
+--------------------------------------------------------------------
+6. process-development.jpg
+--------------------------------------------------------------------
+Emplacement   : assets/images/process-development.jpg
+Utilité       : Illustration de l'étape "Développement" dans la
+                section Mon processus (fond sombre).
+Format recommandé : JPG, ratio 4:3 (environ 800 x 600 px).
+
+Prompt IA détaillé :
+"Gros plan sur un écran d'ordinateur affichant du code source
+soigné avec coloration syntaxique bleu, blanc et gris sur fond
+sombre, dans un environnement de bureau tamisé le soir. Reflets
+discrets de lumière bleutée sur le clavier, ambiance concentrée et
+professionnelle, photographie nette avec une légère profondeur de
+champ, aucun logiciel ni marque identifiable, texte de code générique
+non lisible en détail."
+
+====================================================================
+NOTE GÉNÉRALE
+====================================================================
+Toutes les images doivent respecter la charte bleu / blanc du site :
+éviter les couleurs vives ou chaudes qui entreraient en conflit avec
+la palette. Privilégier des visuels lumineux, épurés et premium,
+cohérents avec le positionnement "Je transforme des idées en marques
+mémorables et en expériences web modernes."
